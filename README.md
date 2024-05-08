@@ -1,18 +1,16 @@
-# Astro Starter Kit: Minimal
-
 ```sh
 npm create astro@latest -- --template minimal
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+[![StackBlitzで開く](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
+[![CodeSandboxで開く](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
+[![GitHub Codespacesで開く](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+> 🧑‍🚀 **ベテランの宇宙飛行士ですか？** このファイルを削除してください。楽しんで！
 
-## 🚀 Project Structure
+## 🚀 プロジェクト構造
 
-Inside of your Astro project, you'll see the following folders and files:
+Astroプロジェクト内には、以下のフォルダとファイルが含まれています：
 
 ```text
 /
@@ -23,25 +21,25 @@ Inside of your Astro project, you'll see the following folders and files:
 └── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Astroは`src/pages/`ディレクトリ内の`.astro`または`.md`ファイルを検索します。各ページはファイル名に基づいてルートとして公開されます。
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+`src/components/`について特別なことはありませんが、Astro/React/Vue/Svelte/Preact コンポーネントを置くのが好きな場所です。
 
-Any static assets, like images, can be placed in the `public/` directory.
+画像などの静的アセットは、`public/`ディレクトリに配置できます。
 
-## 🧞 Commands
+## 🧞 コマンド
 
-All commands are run from the root of the project, from a terminal:
+すべてのコマンドはプロジェクトのルートから、ターミナルから実行されます：
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| コマンド                    | アクション                                      |
+| :------------------------ | :------------------------------------------- |
+| `npm install`             | 依存関係をインストール                         |
+| `npm run dev`             | ローカル開発サーバーを`localhost:4321`で起動   |
+| `npm run build`           | プロダクションサイトを`./dist/`にビルド         |
+| `npm run preview`         | デプロイ前にビルドをローカルでプレビュー       |
+| `npm run astro ...`       | `astro add`、`astro check`などのCLIコマンド実行 |
+| `npm run astro -- --help` | Astro CLIの使用方法を取得                       |
 
-## 👀 Want to learn more?
+## 👀 もっと知りたいですか？
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+ぜひ[当社のドキュメント](https://docs.astro.build)をご覧になるか、[Discordサーバー](https://astro.build/chat)に参加してください。

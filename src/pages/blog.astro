@@ -1,26 +1,13 @@
 ---
-import '../styles/global.css';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-
+import BaseLayout from "../layouts/BaseLayout.astro";
 const pageTitle = "私のAstro学習ブログ";
 ---
-<html lang="ja">
-  <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width" />
-    <title>{pageTitle}</title>
-  </head>
-  <body>
-	<Header />
 
-    <h1>{pageTitle}</h1>
-    <p>ここには、私がAstroを学んでいく旅の様子を投稿します。</p>
-    <ul>
-      <li><a href="/posts/post-1/">記事1</a></li>
-	  <li><a href="/posts/post-2/">記事2</a></li>
-      <li><a href="/posts/post-3/">記事3</a></li>
-    </ul>
-	<Footer />
-  </body>
-</html>
+<BaseLayout pageTitle={pageTitle}>
+	<p>ここには、私がAstroを学んでいく旅の様子を投稿します。</p>
+  <ul>
+    <li><a href="/posts/post-1/">記事1</a></li>
+    <li><a href="/posts/post-2/">記事2</a></li>
+    <li><a href="/posts/post-3/">記事3</a></li>
+  </ul>
+</BaseLayout>
